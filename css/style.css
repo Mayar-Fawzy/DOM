@@ -1,0 +1,60 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.item
+{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.item-caption
+{
+    bottom: 20px;
+    width: 80%;
+    left: 10%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#lightbox-container
+{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#lightbox-item
+{
+    width: 45%;
+    height: 500px;
+    background-image: url(/images/portfolio-2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#closeBtn
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#lightbox-item i 
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+#nextBtn 
+{
+    margin-right: 20px;
+}
+#prevBtn 
+{
+    margin-left: 20px;
+}
